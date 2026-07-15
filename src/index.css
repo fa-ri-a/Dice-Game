@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+*{
+
+  margin:0;
+}
+body{
+  font-family: "poppins", sans-serif;
+}
+img{
+  height: 400px;
+  width: 500px;
+}
+.display{
+  display:flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+.btn {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 60px;
+padding-top: 100px;
+
+}
+.btn button{
+  background: black;
+  color: aliceblue;
+  font-weight: 200;
+  width: 150px;
+  height:40px
+}
+.score {
+
+padding: 20px;
+}
+.top{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 600px;
+}
+.btn{
+  height: 30px;
+  width:70px;
+  
+  
+}
+.container{
+  
+  cursor: pointer;
+display: flex;
+}
+.container p{
+  padding-top: 40px;
+  margin-top: 40px;
+}
+.img2{
+  height: 100px;
+  width: 100px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
